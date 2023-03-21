@@ -2,3 +2,7 @@ node_modules
 ES6_basic/.eslintrc.cjs
 ES6_basic/package-lock.json
 ES6_basic/package.json
+ES6_basic/1-main.js
+ES6_basic/0-main.js
+ES6_basic/2-main.js
+ES6_basic/3-main.js
