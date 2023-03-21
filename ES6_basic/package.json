@@ -8,6 +8,6 @@
     "jest": "^29.5.0"
   },
   "scripts": {
-    "dev": "node 2-main.js"
+    "dev": "node 3-main.js"
   }
 }
