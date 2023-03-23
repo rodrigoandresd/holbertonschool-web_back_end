@@ -20,3 +20,8 @@ ES6_promise/package.json
 ES6_promise/package-lock.json
 ES6_promise/2-main.js
 ES6_promise/1-main.js
+ES6_promise/babel.config.js
+ES6_promise/.eslintrc.js
+ES6_promise/utils.js
+ES6_basic/package.json
+ES6_promise/3-main.js
