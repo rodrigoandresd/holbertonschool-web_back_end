@@ -1,8 +1,8 @@
 import Building from './5-building';
 
 export default class SkyHighBuilding extends Building {
-  constructor(sqft, floors) {
-    super(sqft);
+  constructor(_sqft, floors) {
+    super(_sqft);
     this._floors = floors;
   }
 
