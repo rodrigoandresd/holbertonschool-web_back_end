@@ -7,7 +7,7 @@ export default class Currency {
       throw new TypeError('name must be a string');
     }
     this._code = code;
-    this. name = name;
+    this._name = name;
   }
 
   get code() {
