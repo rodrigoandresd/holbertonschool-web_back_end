@@ -14,7 +14,7 @@ export default async function handleProfileSignup(firstName, lastName, fileName)
   } catch (err) {
     stats.push({
       status: 'rejected',
-      value: err,
+      value: err.toString(),
     });
   }
   return stats;
