@@ -1,12 +1,15 @@
 export default function cleanSet(set, startString) {
   if (!startString || !startString.length) return '';
-  const filteredValues = [];
 
+  let filteredValues = '';
   set.forEach((value) => {
     if (value.startsWith(startString)) {
-      filteredValues.push(value.substring(startString.length));
+      filteredValues += value.substring(startString.length) + '-';
     }
   });
-  let words = filteredValues.join('-');
-  return words.toString();
+
+  // Remove the last hyphen
+  filteredValues = filteredValues.slice(0, -1);
+
+  return filteredValues;
 }
