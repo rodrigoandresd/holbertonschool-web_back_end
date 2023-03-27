@@ -4,12 +4,9 @@ export default function cleanSet(set, startString) {
   let filteredValues = '';
   set.forEach((value) => {
     if (value.startsWith(startString)) {
-      filteredValues += value.substring(startString.length) + '-';
+      filteredValues += (filteredValues.length > 0 ? '-' : '') + value.substring(startString.length);
     }
   });
 
-  // Remove the last hyphen
-  filteredValues = filteredValues.slice(0, -1);
-
   return filteredValues;
-}
+};
