@@ -1,5 +1,5 @@
 export default function cleanSet(set, startString) {
-  if (!startString.length) return '';
+  if (!startString || !startString.length) return '';
   const filteredValues = [];
 
   set.forEach((value) => {
