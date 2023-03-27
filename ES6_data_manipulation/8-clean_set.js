@@ -7,6 +7,6 @@ export default function cleanSet(set, startString) {
       filteredValues.push(value.substring(startString.length));
     }
   });
-
-  return filteredValues.join('-');
+  let words = filteredValues.join('-');
+  return words.toString();
 }
