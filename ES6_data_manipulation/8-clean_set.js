@@ -7,4 +7,4 @@ export default function cleanSet(set, string) {
     }
   }
   return value;
-};
+}
