@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h2>JavaScript Sets</h2>
+    <p>Player 1: andres</p>
+
+    <p id="demo"></p>
+
+    <script>
+        const para = document.querySelector("p");
+
+        para.addEventListener("click", updateName);
+
+        function updateName() {
+            const name = prompt("Enter a new name");
+            para.textContent = `Player 1: ${name}`;
+        }
+/*Here we are selecting a text paragraph (line 1),
+ then attaching an event listener to it (line 3) so 
+ that when the paragraph is clicked, the updateName()
+  code block (lines 5–8) is run. The updateName() code block (these types of reusable
+   code blocks are called "functions") asks the user for a new name, and then inserts 
+   that name into the paragraph to update the display.
+
+*/
+    </script>
+<!-- -->
+</body>
+
+</html>
