@@ -6,6 +6,6 @@ export default async function getFullResponseFromAPI(success) {
       throw Error('The fake API is not working currently');
     }
   } catch (error) {
-    throw Error(error);
+    throw Error();
   }
 }
